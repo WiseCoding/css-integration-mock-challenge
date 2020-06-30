@@ -26,7 +26,7 @@ main {
   align-items: center;
 }
 .wrapper {
-  width: 490px;
+  width: 488px;
   height: 260px;
   border: 1px solid #f0f0f0;
 
@@ -35,7 +35,7 @@ main {
   justify-content: start;
 
   .innerwrap {
-    margin: 20px;
+    margin: 20px 20px 15px 20px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -45,11 +45,12 @@ main {
       p:first-child {
         color: #333333;
         font-weight: bold;
+        font-size: 1.3rem;
       }
       p:nth-child(2) {
         margin-top: 8px;
         color: #aeaeae;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
       }
     }
     .contactwrap {
